@@ -437,6 +437,11 @@ p {
     gap: 20px;
   }
 }
+@media (max-width: 480px) {
+  .about__right {
+    top: -20px;
+  }
+}
 .about__slider {
   position: relative;
 }

@@ -32,8 +32,6 @@ if (max > 2 && viewport_width > 1200) {
     aboutRight.style.right = right0 + (max - 2) * 50 + 'px';
 } else if(viewport_width < 920){
     aboutRight.style.right = 'auto';
-}else
-{
+}else{
     aboutRight.style.right = right0 +'px';
 }
-console.log();
