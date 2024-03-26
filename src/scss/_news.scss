@@ -1,0 +1,40 @@
+.news {
+    background-color: white;
+    
+    &__container {
+       padding: 72px 0;
+       @media (max-width:480px) {
+        padding: 38px 0;
+       }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 32px;
+        column-gap: 24px;
+        @media(max-width:960px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media(max-width:480px){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__elem {
+        img {
+            max-width: 100%;
+            border-radius: 24px;
+        }
+    }
+
+    &__title {
+        padding: 16px 0 4px;
+        max-width: 90%;
+    }
+    &__showmore{
+        padding-top: 32px;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,21 @@
+.map {
+    padding: 72px 0;
+
+    @media (max-width:480px) {
+        padding: 38px 0;
+    }
+}
+
+span.inline-image._loaded.map-circle-placemark__placemark svg {
+    background-image: url(/src/img/map.png);
+}
+
+span.inline-image._loaded.map-circle-placemark__placemark svg {
+    display: none;
+}
+
+.map-circle-placemark__caption {
+    background: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
