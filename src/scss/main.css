@@ -133,6 +133,11 @@ p {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 480px) {
+  .header__texts-container {
+    max-width: 90%;
+  }
+}
 .header__slider {
   display: flex;
   justify-content: end;
@@ -337,6 +342,11 @@ p {
 @media (max-width: 720px) {
   .arrows {
     right: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .arrows {
+    gap: 0px;
   }
 }
 
