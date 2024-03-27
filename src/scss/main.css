@@ -660,12 +660,7 @@ span.inline-image._loaded.map-circle-placemark__placemark svg {
   border-radius: 24px;
 }
 .news__elem:hover {
-  box-shadow: 0 0 0 20px red;
-  background-color: red;
   transform: scale(1.03);
-}
-.news__elem:hover p {
-  color: white;
 }
 .news__title {
   padding: 16px 0 4px;
