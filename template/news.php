@@ -52,9 +52,10 @@
                 </ul>
                 <div class="news__showmore">
                     <a class="reed-more">
-                        Показать еще
+                        Показать еще<div class="reed-arrow"></div>
+
+                    </a>
                 </div>
-                </a>
             </div>
         </div>
     </div>

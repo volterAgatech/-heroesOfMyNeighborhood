@@ -168,7 +168,7 @@ p {
 }
 .header__slider-info .reed-more {
   position: absolute;
-  bottom: 32px;
+  bottom: 10px;
 }
 .header__slider-img .heroimg {
   position: absolute;
@@ -198,10 +198,6 @@ p {
 }
 .header__about-hero .panim {
   opacity: 0;
-}
-.header__about-hero .reed-more {
-  position: absolute;
-  bottom: 32px;
 }
 .header__about-hero.activehero {
   opacity: 1;
@@ -319,15 +315,40 @@ p {
 
 .reed-more {
   position: relative;
+  background-color: red;
+  color: white;
+  padding: 10px 30px 10px 10px;
+  display: flex;
+  align-items: center;
 }
-.reed-more:after {
+.reed-more:hover {
+  box-shadow: inset 0 -38px 0 0 white;
+}
+.reed-more:hover .reed-arrow:after {
+  background-color: red;
+}
+.reed-more:hover .reed-arrow:before {
+  background-color: red;
+}
+.reed-more .reed-arrow:after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  transform: rotate(45deg);
+  right: 10px;
   height: 2px;
-  width: 100%;
-  left: 0;
-  background-color: var(--mainRed);
+  width: 10px;
+  top: 40%;
+  background-color: white;
+}
+.reed-more .reed-arrow:before {
+  content: "";
+  position: absolute;
+  transform: rotate(135deg);
+  right: 10px;
+  height: 2px;
+  width: 10px;
+  bottom: 40%;
+  background-color: white;
 }
 
 .arrows {
@@ -629,9 +650,22 @@ span.inline-image._loaded.map-circle-placemark__placemark svg {
     grid-template-columns: 1fr;
   }
 }
+.news__elem {
+  cursor: pointer;
+  border-radius: 24px;
+  transition: 200ms;
+}
 .news__elem img {
   max-width: 100%;
   border-radius: 24px;
+}
+.news__elem:hover {
+  box-shadow: 0 0 0 20px red;
+  background-color: red;
+  transform: scale(1.03);
+}
+.news__elem:hover p {
+  color: white;
 }
 .news__title {
   padding: 16px 0 4px;

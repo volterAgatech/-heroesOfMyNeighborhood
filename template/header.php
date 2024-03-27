@@ -88,7 +88,7 @@
 
                                 </div>
                                 <a class="reed-more reedinter">
-                                    Читать интервью
+                                    Читать интервью <div class="reed-arrow"></div>
                                 </a>
                             </div>
                         </div>
