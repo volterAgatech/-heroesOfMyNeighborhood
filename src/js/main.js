@@ -112,17 +112,69 @@ autoSlider();
 код отработки всплывающего окна
 */
 
-const reedInter = document.querySelector('.reed-more.reedinter');
+const reedInter = document.querySelectorAll('.reedinter');
 const popup = document.querySelector('.header__popup');
 const krest = document.querySelector('.krest');
-reedInter.addEventListener('click', () => {
-    popup.classList.add('show');
-    document.body.style.transition = 'none';
-    document.body.style.overflow = "hidden";
-    document.body.style.marginRight = "15px";
-})
+
+reedInter.forEach(e => {
+    e.addEventListener('click', () => {
+        popup.classList.add('show');
+        document.body.style.transition = 'none';
+        document.body.style.overflow = "hidden";
+        document.body.style.marginRight = "15px";
+    })
+    e.addEventListener('click', () => {
+        popup.classList.add('show');
+        document.body.style.transition = 'none';
+        document.body.style.overflow = "hidden";
+        document.body.style.marginRight = "15px";
+    })
+});
+
 krest.addEventListener('click', () => {
     popup.classList.remove('show');
     document.body.style.overflow = "auto";
     document.body.style.marginRight = "0";
+})
+/*
+псевдо добавление новых элементов
+*/
+let plus6 =
+   `
+   <li class='news__elem reedinter' data-news='1'>
+   <img src='/src/img/news/1.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Анастасией Юровой</p>
+   <p class='small'>4 марта 2024</p>
+</li>
+<li class='news__elem reedinter' data-news='2'>
+   <img src='/src/img/news/2.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Татьяной Галиевой</p>
+   <p class='small'>20 февраля 2024</p>
+</li>
+<li class='news__elem reedinter' data-news='3'>
+   <img src='/src/img/news/3.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Дмитрием Лесняком</p>
+   <p class='small'>14 феврлая 2024</p>
+</li>
+<li class='news__elem reedinter' data-news='1'>
+   <img src='/src/img/news/1.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Анастасией Юровой</p>
+   <p class='small'>4 марта 2024</p>
+</li>
+<li class='news__elem reedinter' data-news='2'>
+   <img src='/src/img/news/2.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Татьяной Галиевой</p>
+   <p class='small'>20 февраля 2024</p>
+</li>
+<li class='news__elem reedinter' data-news='3'>
+   <img src='/src/img/news/3.png' alt=''>
+   <p class='news__title'>Интервью с «Героем моего района» Дмитрием Лесняком</p>
+   <p class='small'>14 феврлая 2024</p>
+</li>
+`;
+let showmore = document.querySelector('.showmore');
+let newsList = document.querySelector('.news__list');
+showmore.addEventListener('click', () => {
+    newsList.insertAdjacentHTML("beforeend",plus6);
+    reedInter = document.querySelectorAll('.reedinter');
 })

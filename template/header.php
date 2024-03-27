@@ -87,7 +87,7 @@
                                     </button>
 
                                 </div>
-                                <a class="reed-more reedinter" data-post-id="0">
+                                <a class="reed-more reedinter" data-blog="0">
                                     Читать интервью <div class="reed-arrow"></div>
                                 </a>
                             </div>
