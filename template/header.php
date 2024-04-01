@@ -88,7 +88,10 @@
 
                                 </div>
                                 <a class="reed-more reedinter" data-blog="0">
-                                    Читать интервью <div class="reed-arrow"></div>
+                                    <span>Читать интервью </span>
+                                    <div class="reed-arrow">
+
+                                    </div>
                                 </a>
                             </div>
                         </div>

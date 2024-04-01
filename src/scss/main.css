@@ -317,10 +317,12 @@ p {
   position: relative;
   background-color: red;
   color: white;
-  padding-left: 10px;
   display: flex;
   align-items: center;
   height: 37px;
+}
+.reed-more span {
+  padding: 0 10px;
 }
 .reed-more:hover {
   box-shadow: inset 0 -38px 0 0 white;
@@ -332,14 +334,16 @@ p {
   background-color: red;
 }
 .reed-more .reed-arrow {
-  width: 35px;
+  width: 22px;
   aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .reed-more .reed-arrow:after {
   content: "";
   position: absolute;
   transform: rotate(45deg);
-  right: 10px;
   height: 2px;
   width: 10px;
   top: 40%;
@@ -349,7 +353,6 @@ p {
   content: "";
   position: absolute;
   transform: rotate(135deg);
-  right: 10px;
   height: 2px;
   width: 10px;
   bottom: 40%;
