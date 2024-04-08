@@ -9,7 +9,7 @@
                                 <img src="/src/img/logo.svg" alt="Герой моего района">
                             </a>
                             <a href="https://xn--80aehjga4ayasg2b6i.xn--80adxhks/">
-                                <img src="/src/img/center.svg" alt="Герой моего района">
+                                <img src="/src/img/center.png" alt="Герой моего района">
                             </a>
                         </div>
                     </div>

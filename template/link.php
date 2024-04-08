@@ -8,3 +8,4 @@
 
 <link rel="stylesheet" href="/src/fonts/golos/stylesheet.css">
 <link rel="stylesheet" href="/src/scss/main.css">
+<script src="https://api-maps.yandex.ru/2.1/?apikey=2f672484-0af7-41bb-bcd6-c0a8407d1966&lang=ru_RU" type="text/javascript"></script>

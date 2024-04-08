@@ -1,0 +1,837 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.753408619684485,
+                    37.766699556640596
+                ]
+            },
+            "properties": {
+                "iconCaption": "Денис Давыдов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_352' target='_blank'>https://vk.com/wall-190901501_352</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.75108511946603,
+                    37.488951448730425
+                ]
+            },
+            "properties": {
+                "iconCaption": "Вера Абрамова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_338' target='_blank'>https://vk.com/wall-190901501_338</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.72965275013358,
+                    37.66134238653557
+                ]
+            },
+            "properties": {
+                "iconCaption": "Булат Сахибгареев",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_4713' target='_blank'>https://vk.com/wall-190901501_4713</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.75167205832848,
+                    37.61952138357537
+                ]
+            },
+            "properties": {
+                "iconCaption": "Дамир Юсупов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_326' target='_blank'>https://vk.com/wall-190901501_326</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.6886920060932,
+                    37.44313931875583
+                ]
+            },
+            "properties": {
+                "iconCaption": "Любовь Малахова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_380' target='_blank'>https://vk.com/wall-190901501_380</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.73330937573858,
+                    37.61621690206854
+                ]
+            },
+            "properties": {
+                "iconCaption": "Владимир Меликов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_362' target='_blank'>https://vk.com/wall-190901501_362</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.67843598721949,
+                    37.45717263632131
+                ]
+            },
+            "properties": {
+                "iconCaption": "Геннадий Хоботов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_383' target='_blank'>https://vk.com/wall-190901501_383</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.67747813607248,
+                    37.498435739806204
+                ]
+            },
+            "properties": {
+                "iconCaption": "Елена Мамаева",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_399' target='_blank'>https://vk.com/wall-190901501_399</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.714974353890774,
+                    37.43380523138324
+                ]
+            },
+            "properties": {
+                "iconCaption": "Валентин Стельмашенко",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_409' target='_blank'>https://vk.com/wall-190901501_409</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.69454012133364,
+                    37.494857672979954
+                ]
+            },
+            "properties": {
+                "iconCaption": "Анна Кисличенко",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_421' target='_blank'>https://vk.com/wall-190901501_421</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.718116950576196,
+                    37.426009855415586
+                ]
+            },
+            "properties": {
+                "iconCaption": "Римма Никонова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_428' target='_blank'>https://vk.com/wall-190901501_428</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.70274353772318,
+                    37.51319237723553
+                ]
+            },
+            "properties": {
+                "iconCaption": "Валерий Киселев",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_435' target='_blank'>https://vk.com/wall-190901501_435</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.72836251733528,
+                    37.74128743186161
+                ]
+            },
+            "properties": {
+                "iconCaption": "Франц Лещинский",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_439' target='_blank'>https://vk.com/wall-190901501_439</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.78614607098229,
+                    37.35751696601058
+                ]
+            },
+            "properties": {
+                "iconCaption": "Алексей Бахурин",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_443' target='_blank'>https://vk.com/wall-190901501_443</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.67455529200564,
+                    37.759376249457716
+                ]
+            },
+            "properties": {
+                "iconCaption": "Людмила Румянцева",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_450' target='_blank'>https://vk.com/wall-190901501_450</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.65308678732977,
+                    37.74729558005433
+                ]
+            },
+            "properties": {
+                "iconCaption": "Людмила Чернышева",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_454' target='_blank'>https://vk.com/wall-190901501_454</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.79006335696165,
+                    37.67558403983199
+                ]
+            },
+            "properties": {
+                "iconCaption": "Виктор Старченко",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_458' target='_blank'>https://vk.com/wall-190901501_458</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.778038207894056,
+                    37.71476574912137
+                ]
+            },
+            "properties": {
+                "iconCaption": "Роман Тимохин",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_459' target='_blank'>https://vk.com/wall-190901501_459</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.79231199052387,
+                    37.67815896048593
+                ]
+            },
+            "properties": {
+                "iconCaption": "Федор Евдокимов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_465' target='_blank'>https://vk.com/wall-190901501_465</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.819116298459384,
+                    37.81244107260728
+                ]
+            },
+            "properties": {
+                "iconCaption": "Арсен Головенков",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_470' target='_blank'>https://vk.com/wall-190901501_470</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.697466233254524,
+                    37.81926461234108
+                ]
+            },
+            "properties": {
+                "iconCaption": "Лариса Страхова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_471' target='_blank'>https://vk.com/wall-190901501_4718</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.75852039514914,
+                    37.76673623099311
+                ]
+            },
+            "properties": {
+                "iconCaption": "Алексей Кушнарев",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_472' target='_blank'>https://vk.com/wall-190901501_472</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.8480508978901,
+                    37.509759149694126
+                ]
+            },
+            "properties": {
+                "iconCaption": "Александр Гвоздев",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_478' target='_blank'>https://vk.com/wall-190901501_478</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.67285764793913,
+                    37.76334591879799
+                ]
+            },
+            "properties": {
+                "iconCaption": "Юрий Иванов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_481' target='_blank'>https://vk.com/wall-190901501_481</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.830699978432385,
+                    37.50181981100974
+                ]
+            },
+            "properties": {
+                "iconCaption": "Олег Корчагин",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_487' target='_blank'>https://vk.com/wall-190901501_487</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 26,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.82915407742827,
+                    37.4989015676015
+                ]
+            },
+            "properties": {
+                "iconCaption": "Тарас Семкив",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_506' target='_blank'>https://vk.com/wall-190901501_506</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 27,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.94936535906083,
+                    37.40769827656164
+                ]
+            },
+            "properties": {
+                "iconCaption": "Вячеслав Мартынов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_508' target='_blank'>https://vk.com/wall-190901501_508</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 28,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.88371518696522,
+                    37.553181293529335
+                ]
+            },
+            "properties": {
+                "iconCaption": "Эльдар Шарипов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_511' target='_blank'>https://vk.com/wall-190901501_511</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 29,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.70083184370529,
+                    37.928390148204336
+                ]
+            },
+            "properties": {
+                "iconCaption": "Виктор Алексеенко",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_514' target='_blank'>https://vk.com/wall-190901501_514</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 30,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.80116905904618,
+                    37.544984462779375
+                ]
+            },
+            "properties": {
+                "iconCaption": "Анатолий Коробочка",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_517' target='_blank'>https://vk.com/wall-190901501_517</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 31,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.86879337831633,
+                    37.563287857096434
+                ]
+            },
+            "properties": {
+                "iconCaption": "Алла Канцибер",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_522' target='_blank'>https://vk.com/wall-190901501_522</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 32,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.873956951407834,
+                    37.51479351810715
+                ]
+            },
+            "properties": {
+                "iconCaption": "Ольга Кудряшова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_520' target='_blank'>https://vk.com/wall-190901501_520</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 33,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.891570431199064,
+                    37.530468073209775
+                ]
+            },
+            "properties": {
+                "iconCaption": "Александр Дуняшев",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_530' target='_blank'>https://vk.com/wall-190901501_530</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 34,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.8214371329596,
+                    37.81855877908116
+                ]
+            },
+            "properties": {
+                "iconCaption": "Денис Стальнов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_577' target='_blank'>https://vk.com/wall-190901501_577</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 35,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.71433311360367,
+                    37.8886395362221
+                ]
+            },
+            "properties": {
+                "iconCaption": "Ксения Чудотворова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_587' target='_blank'>https://vk.com/wall-190901501_587</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.73999288327729,
+                    37.86398467095711
+                ]
+            },
+            "properties": {
+                "iconCaption": "Дмитрий Есионов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_604' target='_blank'>https://vk.com/wall-190901501_604</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.8307859233506,
+                    37.52693828614546
+                ]
+            },
+            "properties": {
+                "iconCaption": "Татьяна Жданова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_608' target='_blank'>https://vk.com/wall-190901501_608</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.78133496020325,
+                    37.53014620812702
+                ]
+            },
+            "properties": {
+                "iconCaption": "Галина Зубрилова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_610' target='_blank'>https://vk.com/wall-190901501_610</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 39,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.76614380776324,
+                    37.83390101464538
+                ]
+            },
+            "properties": {
+                "iconCaption": "Виктория Марковская",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_621' target='_blank'>https://vk.com/wall-190901501_621</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 40,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.82182369046206,
+                    37.56207522423996
+                ]
+            },
+            "properties": {
+                "iconCaption": "Марина Носова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_625' target='_blank'>https://vk.com/wall-190901501_625</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 41,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.80266710863977,
+                    37.540929711416666
+                ]
+            },
+            "properties": {
+                "iconCaption": "Маргарита Шпаер",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_642' target='_blank'>https://vk.com/wall-190901501_642</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 42,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.738631804252584,
+                    37.656329072073085
+                ]
+            },
+            "properties": {
+                "iconCaption": "Любовь Ершова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_653' target='_blank'>https://vk.com/wall-190901501_653</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 43,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.81344618821608,
+                    37.71235505397599
+                ]
+            },
+            "properties": {
+                "iconCaption": "Наталья Козырева",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_656' target='_blank'>https://vk.com/wall-190901501_656</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 44,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.74149476063331,
+                    37.85483399684694
+                ]
+            },
+            "properties": {
+                "iconCaption": "Антон Липатов",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_736' target='_blank'>https://vk.com/wall-190901501_736</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 45,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.7831375390952,
+                    37.523184216573284
+                ]
+            },
+            "properties": {
+                "iconCaption": "Наталья Горбунцова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_749' target='_blank'>https://vk.com/wall-190901501_749</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 46,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.550311817240136,
+                    37.32393186517137
+                ]
+            },
+            "properties": {
+                "iconCaption": "Илья Пикулин",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_761' target='_blank'>https://vk.com/wall-190901501_761</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 47,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.73182012731024,
+                    37.575158290342195
+                ]
+            },
+            "properties": {
+                "iconCaption": "Стефания Арутюнян",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_782' target='_blank'>https://vk.com/wall-190901501_782</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 48,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.84426084090631,
+                    37.36148279137956
+                ]
+            },
+            "properties": {
+                "iconCaption": "Дмитрий Лесняк",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_787' target='_blank'>https://vk.com/wall-190901501_787</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 49,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.73964106102274,
+                    37.66257684655525
+                ]
+            },
+            "properties": {
+                "iconCaption": "Татьяна Галиева",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_797' target='_blank'>https://vk.com/wall-190901501_797</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 50,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.76373561965122,
+                    37.6131383699926
+                ]
+            },
+            "properties": {
+                "iconCaption": "Анастасия Юрова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_825' target='_blank'>https://vk.com/wall-190901501_825</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 51,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.76407436165728,
+                    37.566274814084295
+                ]
+            },
+            "properties": {
+                "iconCaption": "Алексей Черных",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_827' target='_blank'>https://vk.com/wall-190901501_827</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 52,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.782555519632446,
+                    37.66154687829318
+                ]
+            },
+            "properties": {
+                "iconCaption": "Анна Генералова",
+                "balloonContentHeader": "<a href='https://vk.com/wall-190901501_846' target='_blank'>https://vk.com/wall-190901501_846</a>",
+                "clusterCaption": "clusterCaption"
+            }
+        }
+    ]
+}
