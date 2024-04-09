@@ -140,7 +140,7 @@ krest.addEventListener('click', () => {
 псевдо добавление новых элементов
 */
 let plus6 =
-   `
+    `
    <li class='news__elem reedinter' data-news='1'>
    <img src='/src/img/news/1.png' alt=''>
    <p class='news__title'>Интервью с «Героем моего района» Анастасией Юровой</p>
@@ -175,45 +175,41 @@ let plus6 =
 let showmore = document.querySelector('.showmore');
 let newsList = document.querySelector('.news__list');
 showmore.addEventListener('click', () => {
-    newsList.insertAdjacentHTML("beforeend",plus6);
+    newsList.insertAdjacentHTML("beforeend", plus6);
     reedInter = document.querySelectorAll('.reedinter');
 })
 
 /*карта героев*/
-ymaps.ready(init);
 
-function init () {
+ymaps.ready(function () {
     var myMap = new ymaps.Map('mapyandex', {
-            center: [55.76, 37.64],
-            zoom: 10
-        }, {
-            searchControlProvider: 'yandex#search'
-        }),
+        center: [55.76, 37.64],
+        zoom: 10,
+        controls: []
+    }),
         objectManager = new ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
             clusterize: true,
             // ObjectManager принимает те же опции, что и кластеризатор.
             gridSize: 32,
-            clusterDisableClickZoom: true
+            clusterDisableClickZoom: false,
+            zoomMargin:100
+
         });
 
     // Чтобы задать опции одиночным объектам и кластерам,
     // обратимся к дочерним коллекциям ObjectManager.
-    
-    objectManager.objects.options.set('preset', 'islands#redCircleDotIcon');
-    
-    // objectManager.objects.options.set( {
-    //    // iconLayout: 'default#image',
-    //     iconImageHref: '/src/img/map.png',
-    //     iconImageSize: [20,20],
-       
-    // });
-    myMap.geoObjects.add(objectManager);
 
+    objectManager.objects.options.set('preset', 'islands#redCircleDotIcon');
+
+    myMap.geoObjects.add(objectManager);
+    // 
+
+    // 
     $.ajax({
         url: "/src/js/data.json"
-    }).done(function(data) {
+    }).done(function (data) {
         objectManager.add(data);
     });
 
-}
+})
