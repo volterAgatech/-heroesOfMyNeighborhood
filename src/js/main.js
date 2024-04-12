@@ -193,7 +193,7 @@ ymaps.ready(function () {
             // ObjectManager принимает те же опции, что и кластеризатор.
             gridSize: 32,
             clusterDisableClickZoom: false,
-            zoomMargin:100
+            zoomMargin: 100
 
         });
 
@@ -206,10 +206,19 @@ ymaps.ready(function () {
     // 
 
     // 
-    $.ajax({
-        url: "/src/js/data.json"
-    }).done(function (data) {
-        objectManager.add(data);
-    });
+    // $.ajax({
+    //     url: "/src/js/data.json"
+    // }).done(function (data) {
+    //     objectManager.add(data);
+    // });
 
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var data = JSON.parse(xhr.responseText);
+            objectManager.add(data);
+        }
+    };
+    xhr.open("GET", "/src/js/data.json", true);
+    xhr.send();
 })
